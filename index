@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:yellow">
+<body style="text-align:center">
 
 <h1>This is a heading</h1>
 
+<h2>This is also a heading</h2>
+
 <p>This is a paragraph.</p>
+
+<p>This is also paragraph.</p>
 
 </body>
 </html>
