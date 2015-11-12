@@ -2,7 +2,14 @@
 <html>
 <body>
 
-<p>Code example:<code>var person;</code></p> 
+<p>Code example:</p>
+
+<pre>
+<code>var person = {
+    firstName:"John",
+    lastName:"Doe"
+}</code>
+</pre>
 
 </body>
 </html>
