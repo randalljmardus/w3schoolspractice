@@ -2,7 +2,9 @@
 <html>
 <body>
 
-<p>A simple math equation: <var>x</var> = 3 + 2;</p>
+<p>This is a paragraph.</p>
+<!--Do not display this text in the browser-->
+<p>This is another paragraph</p>
 
 </body>
 </html>
