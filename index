@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-<body style="text-align:center">
+<body>
 
-<h1>This is a heading</h1>
+<h1>Tokyo</h1>
 
-<h2>This is also a heading</h2>
-
-<p>This is a paragraph.</p>
-
-<p>This is also paragraph.</p>
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous <em>metropolitan</em> area in the world.</p>
 
 </body>
 </html>
