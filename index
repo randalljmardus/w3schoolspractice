@@ -2,11 +2,11 @@
 <html>
 <body>
 
-<ol>
+<ul style="list-style-type:square">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
-</ol>
+</ul>
 
 </body>
 </html>
