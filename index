@@ -2,11 +2,15 @@
 <html>
 <body>
 
-<form action="demo_form_exercise.php" method="post">
-Name: <input type="text" name="name">
-<input type="radio" name="sex" value="male"> Male
-<input type="radio" name="sex" value="female"> Female
-<input type="submit">
+<form action="demo_form_exercise.php">
+<select names="cars">
+   <option value="volvo">Volvo</option>
+   <option value="ford">Ford</option>
+   <option value="fiat">Fiat</option>
+   <option value="audi">Audi</option>
+</select>
+
+  <input type="submit">
 </form>
 
 </body>
