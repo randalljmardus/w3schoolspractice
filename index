@@ -2,14 +2,8 @@
 <html>
 <body>
 
-<form action="action_page.php">
-  Favorite color:
-<br>
-<input type="radio" name="Color" name="color" value="blue">Blue
-<br>
-<input type="radio" name="Color" name="color" value="red">Red
-<br>
-  <input type="submit">
+<form>
+<input type="button" onclick="alert('Hello world!')" value="Click Me">
 </form>
 
 </body>
