@@ -3,7 +3,8 @@
 <body>
 
 <form>
-<input type="button" value="OK">
+<input type="radio" name="sex" value="male">
+<input type="radio" name="sex" value="female">
 </form>
 
 </body>
