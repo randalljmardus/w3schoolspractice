@@ -2,12 +2,8 @@
 <html>
 <body>
 
-<form action="demo_form_exercise.php">
-<textarea name="note">
-</textarea>
-
-  <input type="submit">
-</form>
+<button type="button" onclick="alert('Hello World!')">Click Me!
+</button>
 
 </body>
 </html>
