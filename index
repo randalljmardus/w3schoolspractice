@@ -3,7 +3,7 @@
 <body>
 
 <form action="action_page.php">
-  First name: <input type="text" name="firstname" value="John" size="40">
+  <input type="text" name="fname" placeholder="First name">
   <input type="submit">
 </form>
 
