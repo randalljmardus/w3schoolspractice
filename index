@@ -2,8 +2,8 @@
 <html>
 <body>
 
-<button type="button" onclick="alert('Hello World!')">Click Me!
-</button>
+<input type="text">
+</input>
 
 </body>
 </html>
