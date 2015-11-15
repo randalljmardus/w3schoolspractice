@@ -2,11 +2,11 @@
 <html>
 <body>
 
-<form action="demo_form_exercise.php">
+<form action="demo_form_exercise.php" method="post">
 Name: <input type="text" name="name">
 <input type="radio" name="sex" value="male"> Male
 <input type="radio" name="sex" value="female"> Female
-<input type="submit" name="Submit">
+<input type="submit">
 </form>
 
 </body>
