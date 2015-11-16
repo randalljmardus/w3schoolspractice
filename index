@@ -3,9 +3,7 @@
 <head>
 <style>
 body {
-    background-image: url("img_tree.png");
-    background-repeat: no-repeat;
-    background-position: top right;
+    background: url("img_tree.png") no-repeat top right;
 }
 </style>
 </head>
