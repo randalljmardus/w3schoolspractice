@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+p {
+    color: red;
+}
+</style>
+</head>
 <body>
 
-<form action="action_page.php">
-  <input type="text" name="fname" placeholder="First name">
-  <input type="submit">
-</form>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 
 </body>
 </html>
