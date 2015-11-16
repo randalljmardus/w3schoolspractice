@@ -3,10 +3,7 @@
 <head>
 <style>
 body {
-    background-color: linen;
-}
-h1 {
-    background-color: lightblue;
+    background-image: url("paper.gif");
 }
 </style>
 </head>
