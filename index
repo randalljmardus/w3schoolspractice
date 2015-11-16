@@ -3,7 +3,8 @@
 <head>
 <style>
 body {
-    background-image: url("paper.gif");
+    background-image: url("gradient_bg_vertical.png");
+    background-repeat: repeat-y;
 }
 </style>
 </head>
