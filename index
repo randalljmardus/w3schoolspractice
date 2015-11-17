@@ -4,23 +4,30 @@
 <style>
 /* unvisited link */
 a:link {
-    color: red;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: blue;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: black;
+    text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: green;
+    text-decoration: underline;
 }
 </style>
 </head>
 <body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p><a href="http://www.w3schools.com">W3Schools.com</a></p>
+
+</body>
+</html>
