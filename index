@@ -2,32 +2,29 @@
 <html>
 <head>
 <style>
-/* unvisited link */
-a:link {
-    color: red;
+ul {
+    list-style-type: square;
 }
 
-/* visited link */
-a:visited {
-    color: blue;
-}
-
-/* mouse over link */
-a:hover {
-    color: black;
-}
-
-/* selected link */
-a:active {
-    color: green;
+ol {
+    list-style-type: upper-roman;
 }
 </style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p><a href="http://www.w3schools.com">W3Schools.com</a></p>
+<p>This is an unordered list:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
 
+<p>This is an ordered list:</p>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
 </body>
 </html>
