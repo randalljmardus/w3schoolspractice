@@ -4,22 +4,22 @@
 <style>
 /* unvisited link */
 a:link {
-    background-color: lightblue;
+    color: red;
 }
 
 /* visited link */
 a:visited {
-    background-color: lightblue;
+    color: blue;
 }
 
 /* mouse over link */
 a:hover {
-    background-color: yellow;
+    color: black;
 }
 
 /* selected link */
 a:active {
-    background-color: yellow;
+    color: green;
 }
 </style>
 </head>
