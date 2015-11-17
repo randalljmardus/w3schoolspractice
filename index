@@ -2,8 +2,11 @@
 <html>
 <head>
 <style>
-a {
-    text-decoration: none;
+h1 {
+    text-transform: uppercase;
+}
+p {
+    text-transform: capitalize;
 }
 </style>
 </head>
@@ -11,7 +14,7 @@ a {
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<p><a href="css_text.asp">CSS text tutorial</a></p>
+<p>This is another paragraph.</p>
 
 </body>
 </html>
