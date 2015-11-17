@@ -2,19 +2,27 @@
 <html>
 <head>
 <style>
-ul {
-    list-style: circle inside url('img_marker.png');
+table, th, td {
+   border: 2px solid green;
 }
 </style>
 </head>
 <body>
 
-<p>This is an unordered list:</p>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
 
 </body>
 </html>
