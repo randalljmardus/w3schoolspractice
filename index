@@ -2,30 +2,15 @@
 <html>
 <head>
 <style>
-table, td, th {
-    border: 1px solid black;
-}
-th {
+div {
     background-color: lightblue;
+    width: 200px;
 }
 </style>
 </head>
 <body>
 
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-  </tr>
-  <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-  </tr>
-</table>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
 
 </body>
 </html>
