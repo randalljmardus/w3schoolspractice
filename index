@@ -2,8 +2,11 @@
 <html>
 <head>
 <style>
-table, th, td {
-   border: 2px solid green;
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid black;
 }
 </style>
 </head>
