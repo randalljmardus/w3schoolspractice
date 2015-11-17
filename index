@@ -2,17 +2,16 @@
 <html>
 <head>
 <style>
-p {
-    font: italic 20px Verdana;
+a {
+    color: green;
 }
-
 </style>
 </head>
 <body>
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<p><a href="http://www.w3schools.com">W3Schools.com</a></p>
 
 </body>
 </html>
