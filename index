@@ -5,8 +5,8 @@
 table, td, th {
     border: 1px solid black;
 }
-td {
-    text-align: right;
+th {
+    padding: 15px;
 }
 </style>
 </head>
