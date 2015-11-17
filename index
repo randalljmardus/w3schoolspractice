@@ -3,7 +3,11 @@
 <head>
 <style>
 body {
-    background: url("img_tree.png") no-repeat top right;
+    color: red;
+}
+
+h1 {
+    color: blue;
 }
 </style>
 </head>
