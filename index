@@ -3,8 +3,9 @@
 <head>
 <style>
 p {
-    font-weight: bold;
+    font: italic 20px Verdana;
 }
+
 </style>
 </head>
 <body>
