@@ -3,7 +3,7 @@
 <head>
 <style>
 ul {
-    list-style-image: url('sqpurple.gif');
+    list-style: circle inside url('img_marker.png');
 }
 </style>
 </head>
