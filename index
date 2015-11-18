@@ -3,9 +3,7 @@
 <head>
 <style>
 p {
-    border-top-style: dotted;
-    border-top-width: 4px;
-    border-top-color: red;
+    border: 10px solid green;
 }
 </style>
 </head>
