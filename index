@@ -4,7 +4,8 @@
 <style>
 p {
     outline-style: solid;
-    outline-width: 5px;
+    outline-width: 4px;
+    outline-color: green;
 }
 </style>
 </head>
