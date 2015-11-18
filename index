@@ -2,16 +2,20 @@
 <html>
 <head>
 <style>
-h1 {
-    display: none;
+li {
+    display: inline;
 }
 </style>
 </head>
 <body>
 
 <h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Pear</li>
+</ul>
 
 </body>
 </html>
