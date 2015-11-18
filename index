@@ -3,9 +3,9 @@
 <head>
 <style>
 h1 {
-    position: fixed;
-    top: 50px;
-    right: 50px;
+    position: relative;
+    top: 30px;
+    left: -20px;
     color: red;
 }
 </style>
