@@ -2,9 +2,9 @@
 <html>
 <head>
 <style>
-h1 {
+p {
     background-color: lightblue;
-    margin: 50px 25px;
+    padding-top: 30px;
 }
 </style>
 </head>
