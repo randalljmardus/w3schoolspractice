@@ -3,7 +3,8 @@
 <head>
 <style>
 p {
-    border: 10px solid green;
+    outline-style: solid;
+    outline-width: 5px;
 }
 </style>
 </head>
