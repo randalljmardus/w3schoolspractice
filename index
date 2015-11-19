@@ -2,21 +2,32 @@
 <html>
 <head>
 <style>
-div ~ p {
-    color: red;
+/* unvisited link */
+a:link {
+    background-color: lightblue;
+}
+
+/* visited link */
+a:visited {
+    background-color: lightblue;
+}
+
+/* mouse over link */
+a:hover {
+    background-color: yellow;
+}
+
+/* selected link */
+a:active {
+    background-color: yellow;
 }
 </style>
 </head>
 <body>
 
-<div>
-<p>This is a paragraph inside a div element.</p>
-<p>This is another paragraph inside a div element.</p>
-<span><p>This a paragraph inside a span element, inside a div element.</p></span>
-</div>
-
-<p>This is a paragraph, not inside a div element.</p>
-<p>This is another paragraph, not inside a div element.</p>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p><a href="http://www.w3schools.com">W3Schools.com</a></p>
 
 </body>
 </html>
