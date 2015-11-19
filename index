@@ -2,8 +2,9 @@
 <html>
 <head>
 <style>
-p::first-line {
+p::first-letter {
     color: red;
+    font-size: xx-large;
 }
 </style>
 </head>
