@@ -2,16 +2,15 @@
 <html>
 <head>
 <style>
-p.highlight:hover {
+p:first-child {
     background-color: lightblue;
 }
 </style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<p class="highlight">This is another paragraph.</p>
+<p>This is also a paragraph</p>
 
 </body>
 </html>
