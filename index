@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-a[target] {
+a[target="_blank"] {
     background-color: lightblue;
 }
 </style>
