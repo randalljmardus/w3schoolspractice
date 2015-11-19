@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-[title~="red"] {
+[title^=red] {
     border: 5px solid red;
 }
 </style>
