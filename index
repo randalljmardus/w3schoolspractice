@@ -2,17 +2,16 @@
 <html>
 <head>
 <style>
-img {
-    opacity: 0.4;
-}
-img:hover {
-    opacity: 1.0;
+a[target] {
+    background-color: lightblue;
 }
 </style>
 </head>
 <body>
 
-<img src="klematis.jpg" width="150" height="113">
+<a href="http://www.w3schools.com">w3schools.com</a>
+<a href="http://www.disney.com" target="_blank">disney.com</a>
+<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
 
 </body>
 </html>
