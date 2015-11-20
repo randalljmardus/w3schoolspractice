@@ -3,7 +3,7 @@
 <head>
 <style> 
 div {
-    border-radius: 25px;
+    border-bottom-left-radius: 25px;
     background: #73AD21;
     padding: 20px; 
     width: 200px;  
