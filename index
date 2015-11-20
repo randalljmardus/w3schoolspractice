@@ -3,7 +3,7 @@
 <head>
 <style>
 div {
-    background: linear-gradient(to bottom right, white, green);
+    background: linear-gradient(70deg, white, green);
 }
 </style>
 </head>
