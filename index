@@ -2,17 +2,14 @@
 <html>
 <head>
 <style>
-h1 {
-    background-color: red;
-    opacity: 0.4;
+div {
+    background: linear-gradient(white, green);
 }
 </style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<div style="height:200px"></div>
 
 </body>
 </html>
