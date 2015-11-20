@@ -3,7 +3,9 @@
 <head>
 <style> 
 body {
-    background-image: url(img_flwr.gif), url(paper.gif);
+    background:url(img_flwr.gif);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
 }
 </style>
 </head>
