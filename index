@@ -2,15 +2,16 @@
 <html>
 <head>
 <style> 
-div { 
-    border: 10px solid transparent;
-    border-image: url(border.png) 30 stretch;
+body {
+    background-image: url(img_flwr.gif), url(paper.gif);
 }
 </style>
 </head>
 <body>
 
-<div>This is a div element. It has some text.</div>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 
 </body>
 </html>
