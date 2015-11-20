@@ -3,7 +3,7 @@
 <head>
 <style>
 div {
-    background: radial-gradient(white, green);
+    background: radial-gradient(circle, white, green);
 }
 </style>
 </head>
