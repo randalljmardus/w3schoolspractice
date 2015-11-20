@@ -3,7 +3,7 @@
 <head>
 <style>
 h1 {
-   background-color: hsl(0,100%,50%);
+    background-color: hsla(0,100%,50%,0.3);
 }
 </style>
 </head>
