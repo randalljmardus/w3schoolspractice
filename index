@@ -7,7 +7,7 @@ div {
     height: 100px;
     background-color: lightblue;
     border: 1px solid black;
-    transform: rotateY(120deg);
+    transform: rotateZ(90deg);
 }
 
 </style>
