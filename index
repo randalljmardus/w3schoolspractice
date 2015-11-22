@@ -8,7 +8,7 @@ div {
     margin: 50px;
     background-color: lightblue;
     border: 1px solid black;
-    transform: scale(0.5,2);
+    transform: skew(20deg, 30deg);
 }
 
 </style>
