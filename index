@@ -6,12 +6,11 @@ div {
     width: 100px;
     height: 100px;
     background: red;
-    transition: background 2s, transform 2s;
+    transition: width 2s ease-in-out 0.5s;
 }
 
 div:hover {
-    background: blue;
-    transform: rotate(180deg);
+    width: 400px;
 }
 </style>
 </head>
