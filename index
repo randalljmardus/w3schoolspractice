@@ -2,28 +2,19 @@
 <html>
 <head>
 <style> 
-@font-face {
-   font-family: sansation;
-   src: url(sansation_light.woff);
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+    transform: translate(100px,200px);
 }
 
-@font-face {
-    font-family: sansation;
-    src: url(sansation_bold.woff);
-    font-weight: bold;
-}
-
-body {
-   font-family: sansation;
-}
 </style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is <strong>another</strong> paragraph.</p>
-
+<div></div>
 
 </body>
 </html>
