@@ -5,16 +5,20 @@
 div {
     width: 100px;
     height: 100px;
-    background-color: lightblue;
-    border: 1px solid black;
-    transform: rotateZ(90deg);
+    background: red;
+    transition: width 2s;
 }
 
+div:hover {
+    width: 300px;
+}
 </style>
 </head>
 <body>
 
-<div>This is a div element</div>
+<div></div>
+
+<p>Hover over the div element above.</p>
 
 </body>
 </html>
