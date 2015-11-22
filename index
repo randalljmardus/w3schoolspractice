@@ -3,11 +3,9 @@
 <head>
 <style>
 p {
-    white-space: nowrap; 
-    width: 200px; 
+    width: 150px; 
     border: 1px solid #000000;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    word-wrap: break-word;
 }
 </style>
 </head>
