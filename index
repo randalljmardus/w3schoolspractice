@@ -2,18 +2,18 @@
 <html>
 <head>
 <style>
-div {
-    box-shadow: 10px 10px 5px grey;
+p {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 </style>
 </head>
 <body>
 
-<div style="background-color: lightblue; width: 350px; padding: 15px;">
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
-</div>
+<p>This paragraph contains a very long word: supercalifragilisticexpialidocious.</p>
 
 </body>
 </html>
