@@ -5,19 +5,20 @@
 div {
     width: 100px;
     height: 100px;
-    background: red;
-    transition: width 2s ease-in-out 0.5s;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
 }
 
-div:hover {
-    width: 400px;
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: blue;}
 }
 </style>
 </head>
 <body>
-<div></div>
 
-<p>Hover over the div element above.</p>
+<div></div>
 
 </body>
 </html>
