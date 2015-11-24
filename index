@@ -2,12 +2,12 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p> 
+<p id="demo"></p> 
 
 <script>
-var x = 15;
-var y = 9;
-document.getElementById("demo").innerHTML = x % y;
+var x = 10;
+x += 5;
+document.getElementById("demo").innerHTML = x;
 </script>
 
 </body>
