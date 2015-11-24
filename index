@@ -5,10 +5,10 @@
 <p id="demo">Display the result here.</p> 
 
 <script>
-var x = 5;
-var y = 10;
-var z = x + y;
-document.getElementById("demo").innerHTML = z;
+var firstName = "John", lastName = "Doe", age = 35;
+
+document.getElementById("demo").innerHTML = 
+firstName + " " + lastName + " is " + age;
 </script>
 
 </body>
