@@ -2,7 +2,12 @@
 <html>
 <body>
 
-<span onmouseover="this.style.color='red'">Mouse over me!</span>
+<p id="demo"></p> 
+
+<script>
+var txt = "Hello World!";
+document.getElementById("demo").innerHTML = txt;
+</script>
 
 </body>
 </html>
