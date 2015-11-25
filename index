@@ -6,7 +6,7 @@
 
 <script>
 var txt = "Hello World";
-document.getElementById("demo").innerHTML = txt.toUpperCase();
+document.getElementById("demo").innerHTML = txt.toLowerCase();
 </script>
 
 </body>
