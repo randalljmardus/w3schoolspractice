@@ -5,8 +5,7 @@
 <p id="demo"></p> 
 
 <script>
-var txt = "Hello World!";
-document.getElementById("demo").innerHTML = txt.length;
+document.getElementById("demo").innerHTML = "We are \"Vikings\"."; 
 </script>
 
 </body>
