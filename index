@@ -2,11 +2,13 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p> 
+<p id="demo"></p> 
 
 <script>
-var myNumber = 50;
-document.getElementById("demo").innerHTML = myNumber;
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
 </script>
 
 </body>
