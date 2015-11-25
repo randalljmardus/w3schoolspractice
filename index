@@ -2,12 +2,11 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p> 
+<p id="demo"></p>
 
 <script>
-var str1 = "Hello ";
-var str2 = "World!";
-document.getElementById("demo").innerHTML = str1 + str2;
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.indexOf("World");
 </script>
 
 </body>
