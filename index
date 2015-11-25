@@ -2,11 +2,12 @@
 <html>
 <body>
 
-<p id="demo"></p>
+<p id="demo">Display the result here.</p>
 
 <script>
-var person = {firstName:"John", lastName:"Doe", country: "USA"};
-document.getElementById("demo").innerHTML = person.country;
+var person = {name:"John", age:50};
+document.getElementById("demo").innerHTML = 
+person.name + " is " + person.age + " years old.";
 </script>
 
 </body>
