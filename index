@@ -2,11 +2,11 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p>
+<p id="demo"></p>
 
 <script>
-var person = {firstName:"John", lastName:"Doe"};
-document.getElementById("demo").innerHTML = person.firstName;
+var person = {firstName:"John", lastName:"Doe", country: "USA"};
+document.getElementById("demo").innerHTML = person.country;
 </script>
 
 </body>
