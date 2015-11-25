@@ -5,8 +5,8 @@
 <p id="demo"></p>
 
 <script>
-var txt = "Hello World";
-document.getElementById("demo").innerHTML = txt.indexOf("World");
+var str = "Apple,Banana,Kiwi";
+document.getElementById("demo").innerHTML = str.slice(6);
 </script>
 
 </body>
