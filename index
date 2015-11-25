@@ -5,10 +5,8 @@
 <p id="demo">Display the result here.</p>
 
 <script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World!";
-}
-myFunction();
+var person = {firstName:"John", lastName:"Doe"};
+document.getElementById("demo").innerHTML = person.firstName;
 </script>
 
 </body>
