@@ -5,7 +5,7 @@
 <p id="demo">Display the result here.</p>
 
 <script>
-document.getElementById("demo").innerHTML = new Date();
+document.getElementById("demo").innerHTML = new Date("January 10, 2015 10:00:00");
 </script>
 
 </body>
