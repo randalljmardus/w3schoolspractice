@@ -2,15 +2,15 @@
 <html>
 <body>
 
-Age: <input type="number" id="age" value="18">
-<button onclick="checkAge()">Check Age</button>
+First Name: <input type="text" id="fname" value="John">
+<button onclick="checkName()">Check Name</button>
 <p id="demo"></p>
 
 <script>
-function checkAge() {
-  var age = document.getElementById("age").value;
-  var voteable = (age < 18) ? "Too young":"Old enough";
-  document.getElementById("demo").innerHTML = voteable + " to vote.";
+function checkName() {
+  var firstName = document.getElementById("fname").value;
+  var result = (firstName === "John") ? "Hello John!":"You're not John!";
+  document.getElementById("demo").innerHTML = result;
 }
 </script>
 
