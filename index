@@ -5,8 +5,8 @@
 <p id="demo"></p> 
 
 <script>
-var fruits = ["Banana", "Orange", "Apple"];
-fruits.push("Kiwi");
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1, 2);
 document.getElementById("demo").innerHTML = fruits;
 </script>
 
