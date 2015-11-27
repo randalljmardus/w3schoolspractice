@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p>
+<p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = new Date("January 10, 2015 10:00:00");
+document.getElementById("demo").innerHTML = new Date().toDateString();
 </script>
 
 </body>
