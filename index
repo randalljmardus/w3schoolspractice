@@ -5,7 +5,7 @@
 <p id="demo">Display the result here.</p> 
 
 <script>
-document.getElementById("demo").innerHTML = 10>7;
+document.getElementById("demo").innerHTML = 10==10;
 </script>
 
 </body>
