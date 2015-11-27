@@ -2,10 +2,11 @@
 <html>
 <body>
 
-<p id="demo"></p>
+<p id="demo">Display the result here.</p> 
 
 <script>
-document.getElementById("demo").innerHTML = new Date().toDateString();
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
 </script>
 
 </body>
