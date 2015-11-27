@@ -2,12 +2,10 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p> 
+<p id="demo">Display the result here.</p>
 
 <script>
-var x = 8;
-var y = 5;
-document.getElementById("demo").innerHTML = x * y;
+document.getElementById("demo").innerHTML = Math.random();
 </script>
 
 </body>
