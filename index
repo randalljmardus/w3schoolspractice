@@ -5,12 +5,12 @@
 <p id="demo">Display the result here.</p>
 
 <script>
-var firstName = "Greg";
+var age = 25;
 
-if (firstName === "John") {
-    document.getElementById("demo").innerHTML = "Hello John!";
+if (age > 18) {
+    document.getElementById("demo").innerHTML = "Old enough";
 } else {
-    document.getElementById("demo").innerHTML = "You're not John!";
+    document.getElementById("demo").innerHTML = "Too young";
 }
 </script>
 
