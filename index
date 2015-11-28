@@ -5,11 +5,12 @@
 <p id="demo"></p>
 
 <script>
-var i = 10;
-while (i > 0) {
+var i = 0;
+do {
     document.getElementById("demo").innerHTML += i + "<br>";
-    i--;
+    i++;
 }
+while (i < 5)  
 </script>
 
 </body>
