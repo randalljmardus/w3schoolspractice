@@ -6,11 +6,10 @@
 
 <script>
 var text = "";
-var food = ["Pizza", "Beans", "Tacos", "Fish", "Chicken"];
 var i;
 
-for (i = 0; i < food.length; i++) {
-    text += "I love " + food[i] + "<br>";
+for (i = 1; i < 10; i = i + 2) {
+    text += i + "<br>";
 }
 
 document.getElementById("demo").innerHTML = text;
