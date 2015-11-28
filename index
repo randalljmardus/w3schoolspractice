@@ -5,13 +5,16 @@
 <p id="demo">Display the result here.</p>
 
 <script>
-var age = 25;
+var greeting;
+var hour = new Date().getHours();
 
-if (age > 18) {
-    document.getElementById("demo").innerHTML = "Old enough";
+if (hour < 18) {
+    greeting = "Good day";
 } else {
-    document.getElementById("demo").innerHTML = "Too young";
+    greeting = "Good evening";
 }
+
+document.getElementById("demo").innerHTML = greeting;
 </script>
 
 </body>
