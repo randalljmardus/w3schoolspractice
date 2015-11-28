@@ -2,11 +2,13 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p>
+<p id="demo"></p>
 
 <script>
-if (10 > 5) {
-    document.getElementById("demo").innerHTML = "I did it!";
+var firstName = "John";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
 }
 </script>
 
