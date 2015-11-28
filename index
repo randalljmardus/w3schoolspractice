@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<input id="myInput" type="text" value="Tutti Frutti">
+<input id="myInput" type="text" value="Orange">
 <button onclick="checkFruit()">Check Fruit</button>
 <p id="demo"></p>
 
