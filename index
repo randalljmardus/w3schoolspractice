@@ -2,19 +2,30 @@
 <html>
 <body>
 
-<p id="demo">Display the result here.</p>
+<input id="myInput" type="text" value="Apple">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
 
 <script>
-var greeting;
-var hour = new Date().getHours();
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
 
-if (hour < 18) {
-    greeting = "Good day";
-} else {
-    greeting = "Good evening";
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text = "How you like them apples?";
+      break;
+    default:
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
 }
-
-document.getElementById("demo").innerHTML = greeting;
 </script>
 
 </body>
