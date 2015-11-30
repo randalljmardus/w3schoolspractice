@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<p id="demo">Use the DOM to change my text!</p> 
+<p>Use the DOM to change my text!</p> 
 
 <script>
-document.getElementById("demo").innerHTML = "Good Job!";
+document.getElementsByTagName("p")[0].innerHTML = "Good Job!";
 </script>
 
 </body>
