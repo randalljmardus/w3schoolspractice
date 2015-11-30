@@ -5,7 +5,7 @@
 <p id="demo">Hello World!</p> 
 
 <script>
-document.getElementById("demo").style.color = "red";
+document.getElementById("demo").style.backgroundColor = "yellow";
 </script>
 
 </body>
