@@ -2,8 +2,10 @@
 <html>
 <body>
 
+<p id="demo">Hello World!</p> 
+
 <script>
-document.write("Hello World!");
+document.getElementById("demo").style.color = "red";
 </script>
 
 </body>
