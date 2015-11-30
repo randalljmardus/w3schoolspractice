@@ -5,7 +5,7 @@
 <p id="demo">Hello World!</p> 
 
 <script>
-document.getElementById("demo").style.backgroundColor = "yellow";
+document.getElementById("demo").style.textAlign = "center";
 </script>
 
 </body>
